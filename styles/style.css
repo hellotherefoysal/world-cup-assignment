@@ -1,0 +1,69 @@
+/* common styles
+--------------*/
+
+/* Google fonts
+-------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lobster&family=Poppins:wght@400;700&family=Saira&display=swap');
+
+/* Font style end 
+---------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    Width: 1321px;
+    margin: 50px auto;
+}
+
+/* first section styles
+-------------------- */
+
+.first-section{
+    Width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+    display: flex;
+    gap: 26px;
+    padding: 35px 90px;
+}
+
+.fist-section-headings{
+    width: 50%;
+    color: #ffff;
+}
+
+a{
+    text-decoration: none;
+    Padding: 16px 25px 16px 25px;
+    background-color: #F15412;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.first-section-image{
+    width: 50%;
+}
+
+.first-section-image img{
+    width: 100%;
+}
+
+/* heading styles
+-------------- */
+.fist-section-headings h2{
+    font-size: 70px;
+    width: 531px;
+    margin-bottom: -12px;
+}
+
+.fist-section-headings p{
+    font-size: 16px;
+    Line-height: 26px;
+    font-weight: 400;
+    width: 506px;
+    margin-bottom: 30px
+}
