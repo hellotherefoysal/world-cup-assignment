@@ -218,7 +218,11 @@ span{
     color: #E8E8E8;
 }
 
-.side-menu-blog{
+.color-blog-button{
+    background-color: #F15412;
+}
+
+.side-menu-blog-new{
     background-color: #ffff;
     color: #161616;
 }
