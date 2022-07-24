@@ -227,6 +227,10 @@ span{
     color: #161616;
 }
 
+.side-menu-upcoming-match:hover{
+    background-color: #F15412;
+}
+
 /* Animations styles
 -------------------- */
 
