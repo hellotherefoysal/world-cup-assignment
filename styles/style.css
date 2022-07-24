@@ -323,7 +323,11 @@ span{
         color: #ffff;
     }
 
-    /* .footer-part{
-        display: none;
-    } */
+    .first-section{
+        border-radius: 10px;
+    }
+
+    ul{
+        padding-inline-start: 0px;
+    }
 }
