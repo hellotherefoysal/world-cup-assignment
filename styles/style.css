@@ -266,7 +266,7 @@ span{
 
     .first-section-image{
         position: relative;
-        top: 37px;
+        top: 35px;
     }
 
     .menu-bar{
@@ -330,4 +330,5 @@ span{
     ul{
         padding-inline-start: 0px;
     }
+
 }
