@@ -4,16 +4,13 @@
 /* Google fonts
 -------------*/
 
-*{
-    margin: 0 auto;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lobster&family=Poppins:wght@400;500;700&family=Saira&display=swap');
 
 /* Font style end 
 ---------------*/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
 
 /* main{
@@ -70,11 +67,11 @@ a{
 .fist-section-headings h2{
     font-size: 70px;
     width: 531px;
+    margin: 0 auto;
 }
 
 .fist-section-headings p{
     font-size: 16px;
-    margin-top: 10px;
     margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
     width: 506px;
@@ -148,11 +145,11 @@ span{
 }
 
 .headings-info{
-    padding: 15px;
+    padding: 10px;
 }
 
 .footer-part{
-    height: 444px;
+    height: 480px;
     background-color: #161616;
     text-align: center;
     color: #ffff;
@@ -207,10 +204,29 @@ span{
     font-weight: bold;
 }
 
+.tablet-vew-all{
+    display: none;
+}
+
+.icons i{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.upcoming-match-info-button {
+    background-color: #F15412;
+    color: #E8E8E8;
+}
+
+.side-menu-blog{
+    background-color: #ffff;
+    color: #161616;
+}
+
 /* Animations styles
 -------------------- */
 
-/* .container:hover h2{
+.container:hover h2{
     transform: translate(500px);
 }
 
@@ -220,7 +236,7 @@ span{
 
 .match-heading{
     margin-bottom: 10px;
-} */
+}
 
 /* Responsive websites
 --------------------*/
@@ -259,10 +275,6 @@ span{
         width: 100%;
     }
 
-    .first-section-image img{
-        width: 233px;
-        height: 245px;
-    } 
 
     .first-section-image{
         position: relative;
@@ -273,10 +285,15 @@ span{
         background-color: transparent;
     }
 
+    .small-menu {
+        margin-bottom: 150px;
+    }
+
     .side-menu-upcoming-match{
         border: 1px solid #E8E8E8;
         border-radius: 10px;
         width: 210px;
+        margin: 0;
     }
 
     .side-menu-all-group{
@@ -331,6 +348,15 @@ span{
         padding-inline-start: 0px;
     }
 
+    .footer-part ul li{
+        width: 200px;
+    }
+
+    .tablet-vew-all{
+        display: none;
+    }
+
+
 }
 
 /* Tablet responsiveness
@@ -346,7 +372,7 @@ span{
     }
 
     body{
-        padding: 50px;
+        padding: 20px;
     }
 
     .match-details{
@@ -355,13 +381,18 @@ span{
 
      .match{
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        row-gap: 40px;
+     }
+
+     .small-menu{
+        margin: 0 auto;
+        text-align: center;
      }
 
      .small-menu a{
         display: inline;
-        text-align: center;
         font-weight: 500;
-        margin: 40px;
     }
 
     .menu-bar{
@@ -369,7 +400,7 @@ span{
         border-radius: 10px;
         background-color: transparent;
         height: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     .side-menu{
@@ -389,4 +420,69 @@ span{
      .footer-part h2{
         padding-top: 70px;
      }
+
+     .side-menu-all-group{
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        width: 230px;
+        padding: 17px 68px 17px 68px;
+     }
+
+     .side-menu-upcoming-match{
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        width: 230px;
+        padding: 17px 28px 17px 28px;
+     }
+
+     .fist-section-headings h2{
+        font-size: 40px;
+        width: 316px;
+    }
+
+     .fist-section-headings p{
+        font-size: 14px;
+        width: 316px;
+     }
+
+     .fist-section-headings{
+        width: 316px;
+     }
+
+     .first-section{
+        padding: 50px;
+        align-items: flex-end;
+        height: 398px;
+     }
+
+     .first-section-image img{
+        height: 340px;
+        width: 323px;
+        position: relative;
+     }
+
+     .footer-part{
+        height: 520px;
+    }
+
+    .live{
+        width: ;
+    }
+
+    a{
+        text-decoration: none;
+        Padding: 12px 29px;
+        background-color: #F15412;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #ffff;
+        text-align: center;
+    }
+
+    .tablet-vew-all{
+        display: block;
+        text-align: center;
+    }
+
+
 }
